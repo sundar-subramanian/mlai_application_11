@@ -1,6 +1,18 @@
 # Assignment 11.1 - What drives the price of a car?
 
-The following report presents the findings of an analysis that explores the pricing of used cars. The analysis identifies the factors that are most important in determining the price of a used car. A large dataset of used car prices along with various factors about the car has been analyzed. The results of this analysis are as follows:
+The following report presents the findings of an analysis that explores the pricing of used cars. The analysis identifies the factors that are most important in determining the price of a used car. A large dataset of used car prices along with various factors about the car has been analyzed. The results of this analysis are below.
+
+## Business Undestanding
+
+The used car dealership has hundreds of cars in its inventory and the vehicles need to be priced optimally so that the vehicles sell quickly and the dealer stocks the right vehicles. There are many factors that go into pricing the cars appropriately. Based on historical used car sales, we can develop a model to determine the factors that are most important in pricing a used car and use this model to price the car optimally. 
+
+This can be done by using a supervised learning technique called regression analysis. This technique is suitable for modeling a numerical variable such as the price of the vehicle in this case. The regression model learns from historical data and determines what factors are most important in determining the price of a car. The model also learns how much each of those factors contribute to the price of the car. Once learned, the model is then used to predict the price of a car given a set of key factors about the car.
+
+We will be using a historical data set of used cars to create a regression model that can be used for predicting the price of a used car.
+
+
+
+
 
 Used car prices increase exponentially as the age of the vehicle decreases, so newer vehicles are priced higher.
 
